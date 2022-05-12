@@ -9,4 +9,11 @@ print(type(d))
 print(type(x))
 print(type(a))
 print(type(y))
+print(d + j)
+# print(d + x)
+print(d/j)
+print(d + a)
+print(a//j)
+print(round(6.5))
 
+#
