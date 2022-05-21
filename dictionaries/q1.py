@@ -1,4 +1,4 @@
-prices = {
+groceries = {
     "Baby Spinach": 2.78,
     "Hot Chocolate": 3.70,
     "Crackers": 2.10,
@@ -24,3 +24,14 @@ quantity = {
 #     "Carrots": 8,
 #     "Oranges": 5
 # }
+
+for items, prices in groceries.items():
+    #print(f"items: {items}")
+    #print(quantity[items])
+    total = prices * quantity[items]
+    total = "{:.2f}".format(total)
+    #print(total)
+    print(f"{quantity[items]} {items} @ ${prices} = ${total}")
+    
+
+   
